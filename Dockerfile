@@ -10,4 +10,5 @@ RUN set -x \
   && cd /code/document-preprocessing-toolkit/ \
   && pip install ./background-estimation ./border-removal ./new_binarization_toolkit ./stable_paths_toolkit ./staffline-removal \
   && pip install ./lyric-extraction \
-  && pip install svn+svn://svn.code.sf.net/p/music-staves/code/
+  && pip install svn+svn://svn.code.sf.net/p/music-staves/code/ \
+  && pip install pillow
