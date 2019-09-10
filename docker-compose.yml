@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  gamera:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "d33pi0/gamera_docker:latest"
+    command: bash -c "tail -f /dev/null"
+    volumes:
+    - "./code:/opt"
